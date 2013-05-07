@@ -2,11 +2,7 @@
 before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -qq s3cmd
-<<<<<<< Updated upstream
-script: bundle exec rake build
-=======
 script: bundle exec rake checkout_ember build
->>>>>>> Stashed changes
 after_success: bundle exec rake versions:deploy_edge
 env:
   global:
