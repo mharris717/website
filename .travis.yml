@@ -6,6 +6,13 @@ script: bundle exec rake checkout_ember build
 after_success: bundle exec rake versions:deploy_edge
 env:
   global:
-  - S3_ACCESS_KEY_ID: "XU+jCNlR0HFaf7wlc4uQcGtox3KyzxLeIVokYsHwmeakxIXeAqjPEoDlI/RW\n8exV02rK3vIoVh0IXoW/3SwknKrMEoYyMq4cfudrtUOdLI4/SdOftAieeHzq\nx7FSb+UFH4ZvN17vshLpGMdNfYCFLdeViiFuW5VhVe2kaawvX7M="
-  - S3_SECRET_ACCESS_KEY: "cPnptQbRgE7LiBE9CRxX9vqT67Dhe1GhYe5/JuvcxrenS78m4xN4Y8vymHQP\nds2MtuPViydBI7GJlwPXmZcKwuKcJgs0F7um05OjQ3eyCy0ViPVSFypBpOjC\n2AQQja7JhrYnwfaLk1c7gyrnWrCb6yrCdMHygvQjqSbUr/in1b0="
+  - secure: ! 'U7LkjeFIF4OnWG2kFzhq8Z2DMIi+yrXcOt0AAs+e1EZ+dRLA0tvuw63q1Nr3
 
+      +EfxbhlQj3gB90A3vt2hP0JyiqyCB/f8SQ9eqZ7fR4VmKONz2zlDS4f/olMa
+
+      wH/ObyFWlu60oiJBHEHOSHDTdg8fjeBIUNTuMfGN55Yr581KDRU='
+  - secure: ! 'HhUILj1exII68Bjbkho2NjbKSfi5Vd1tQCHkXFIkAXK4nJPGcL1WdRPiMQ5/
+
+      REGwxv2iivwdgrZ0l7yvYGHYaqVvlLHqy+2DP6S5bNcy4m0VgQ4kVZon8+vv
+
+      C2ENbJjeJnVkBURu0z+qp1W3CrtuoTVKYUdjJqWITNBDtYx9Jd4='
