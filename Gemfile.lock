@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/mharris717/website_versions.git
-  revision: 64917cefde50e32db92ea782e4181a275f916eb8
+  revision: 843fdd6ee15d113b4e419c17cafa613af3740e4f
   specs:
     website_versions (0.1.0)
       grit
