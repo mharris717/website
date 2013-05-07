@@ -6,13 +6,6 @@ script: bundle exec rake checkout_ember build
 after_success: bundle exec rake versions:deploy_edge
 env:
   global:
-  - secure: ! 'U7LkjeFIF4OnWG2kFzhq8Z2DMIi+yrXcOt0AAs+e1EZ+dRLA0tvuw63q1Nr3
-
-      +EfxbhlQj3gB90A3vt2hP0JyiqyCB/f8SQ9eqZ7fR4VmKONz2zlDS4f/olMa
-
-      wH/ObyFWlu60oiJBHEHOSHDTdg8fjeBIUNTuMfGN55Yr581KDRU='
-  - secure: ! 'HhUILj1exII68Bjbkho2NjbKSfi5Vd1tQCHkXFIkAXK4nJPGcL1WdRPiMQ5/
-
-      REGwxv2iivwdgrZ0l7yvYGHYaqVvlLHqy+2DP6S5bNcy4m0VgQ4kVZon8+vv
-
-      C2ENbJjeJnVkBURu0z+qp1W3CrtuoTVKYUdjJqWITNBDtYx9Jd4='
+  - secure: "cDzdsDPvC6YmYzuOsYXcXXRRadXLGIki6WuuaV6IuVTv0V+x+qSFNZ/KLk97\n4HOmklgM+ub0Nwxs+JhL2sh1ElhXi9hdXMFkSqIYutL6iJwJs6XA89Xfw5wu\nAxSeMzRMQHFugpEMC3Z/Q0G41C5N/bFCX3H2cNdmpFc86qQDZEs="
+  - secure: "BtJpzh/QjoWue6NXg3nJQcPOfJ19V3Xp0o66hyO3YQphQ1xgKTxIlJSANYDV\nEtzIqUhtvEdeT+WP7btcssjSX+xVh/rhU+iHo5jcIAC+i5mHzOK+FFeZ9Wbu\nkItX3qPxwE+82SotO9jyWaECE/QjpmKlhB54nR0TvgVCdWHhSBI="
+  
