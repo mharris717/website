@@ -5,6 +5,14 @@ GIT
   specs:
     coderay (1.0.8.rc1)
 
+GIT
+  remote: git://github.com/mharris717/website_versions.git
+  revision: 3b14920dce20a34ae7f98fc4c7d38851ac61024d
+  specs:
+    website_versions (0.1.0)
+      grit
+      rake
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,7 +39,7 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     daemons (1.1.8)
-    diff-lcs (1.2.1)
+    diff-lcs (1.2.4)
     eventmachine (0.12.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -39,6 +47,10 @@ GEM
       eventmachine (>= 0.12.0)
     ffi (1.4.0)
     fssm (0.2.10)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
     haml (4.0.0)
       tilt
     highline (1.6.13)
@@ -86,7 +98,7 @@ GEM
       middleman-more (>= 3.0.1)
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.9.0)
-    mime-types (1.21)
+    mime-types (1.23)
     multi_json (1.6.1)
     nokogiri (1.5.6)
     padrino-core (0.10.7)
@@ -102,6 +114,7 @@ GEM
       capybara (~> 2.0, >= 2.0.1)
       faye-websocket (~> 0.4, >= 0.4.4)
       http_parser.rb (~> 0.5.3)
+    posix-spawn (0.3.6)
     pry (0.9.10)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -111,7 +124,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.0.0)
+    rake (10.0.4)
     rb-fsevent (0.9.3)
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
@@ -180,3 +193,4 @@ DEPENDENCIES
   redcarpet
   rspec
   thin
+  website_versions!
